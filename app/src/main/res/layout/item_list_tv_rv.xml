@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+       <ImageView
+            android:id="@+id/coverTV"
+            android:layout_width="140dp"
+            android:layout_height="140dp" />
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/judulTV"
+                android:text="Judul TV Show"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/popularitasTV"
+                android:text="Popularitas TV Show"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RatingBar
+                android:id="@+id/ratingTV"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/episodePertama"
+                android:text="Episode Pertama"
+                android:textSize="14sp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

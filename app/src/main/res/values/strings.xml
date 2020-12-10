@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SubmissionExpert4</string>
+    <string name="judul_film">Judul Film :</string>
+    <string name="judul_film_1">Judul Film</string>
+    <string name="rating_film">Rating Film</string>
+    <string name="rilis_film">Rilis Film :</string>
+    <string name="deskripsi_film">Deskripsi Film :</string>
+    <string name="tgl_rilis">Tanggal Rilis : </string>
+    <string name="list_daftar_fil_tvshow">Daftar Film &amp; TV Show</string>
+    <string name="film">Film</string>
+    <string name="tv_show">TV Show</string>
+    <string name="detail_film">Penjelasan Film</string>
+    <string name="judulTVShow">Judul TV Show</string>
+    <string name="ratingTVShow">Rating TV Show</string>
+    <string name="episodePertama">Episode Pertama : </string>
+    <string name="deskripsiTVShowDetail">Deskripsi TV Show</string>
+    <string name="detailTVShow">Penjelasan TV Show</string>
+    <string name="popularitasFilm">Popularitas Film : </string>
+    <string name="langage">id</string>
+    <string name="status_film">Status Film</string>
+    <string name="negara_produksi">Negara Produksi</string>
+    <string name="jumlah_episode">Jumlah Episode</string>
+</resources>
